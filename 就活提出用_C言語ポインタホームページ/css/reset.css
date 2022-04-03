@@ -1,0 +1,15 @@
+body,h1,h2,h3,p,ul,pre{
+  margin: 0px;
+}
+
+p,ul{
+  padding: 0px;
+}
+
+p,li,h1,h2,h3{
+  line-height: 1;
+}
+
+ul{
+  list-style-type: none;
+}
