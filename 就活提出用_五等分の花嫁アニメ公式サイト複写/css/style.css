@@ -1,0 +1,573 @@
+body{
+  margin: 0px;
+}
+
+h1,h2{
+  margin: 0px;
+
+}
+
+p{
+  margin: 0px;
+  padding: 0px;
+  line-height: 1;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+.header{
+  background-image: url(https://www.tbs.co.jp/um/v7/img/gh_bg_pc.svg?0);
+  background-color: gainsboro;
+  border-bottom: 2px solid black;
+}
+
+.navi{
+  /* background-color: cyan; */
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  /* overflow: ; */
+  /* overflowにvisible以外の値を指定した要素では、height:autoのときにfloatした子要素の下マージンを含めて高さが計算されます */
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.navi-child1{
+  /* background-color: yellow; */
+  width: 150px;
+  height: 75px;
+  float: left;
+  background-image: url(https://www.tbs.co.jp/um/v7/img/gh_parts.svg?0);
+  background-repeat: no-repeat;
+  /* background-position: right center; */
+  background-size: 320px 240px;
+}
+
+.navi-child1 ul{
+  height: 100%;
+}
+
+.navi-child1 ul li{
+  height: 50%;
+  text-align: center;
+  line-height: 37.5px;
+}
+
+.navi-child1 ul li:nth-child(1){
+  /* background-color: royalblue; */
+}
+
+.navi-child1 ul li:nth-child(2){
+  /* background-color: springgreen; */
+}
+
+.navi-child1 ul li.gh-home a{
+  display: block;
+  width: 90px;
+  height: 26px;
+  background-image: url(https://www.tbs.co.jp/um/v7/img/gh_parts.svg?0);
+  background-position: -170px 0px;
+  background-size: 320px 240px;
+  text-indent: 90px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.navi-child1 ul li.gh-program a{
+  display: block;
+  width: 86px;
+  height: 25px;
+  text-indent: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+.navi-child2{
+  /* background-color: tomato; */
+  width: 830px;
+  float: left;
+  position: relative;
+}
+
+.navi-child2 ul.main{
+  display: table;
+  width: 100%;
+}
+
+.navi-child2 ul li{
+  display: table-cell;
+  white-space: nowrap;
+}
+
+.navi-child2 ul li a{
+  display: block;
+  text-align: center;
+}
+
+.navi-child2  ul.main li a:hover{
+  background-color: powderblue;
+}
+
+.navi-child2 ul.main li a::before{
+  height: 20px;
+  content: "";
+  display: block;
+  float: left;
+  border-left:2px solid cyan;
+  margin-top: 10px;
+}
+
+.navi-child2 ul.main li:first-child a::before{
+  border-left: none;
+}
+
+.navi-child2 ul.main li a span{
+  line-height: 40px;
+  display: block;
+  padding: 0px 12px;
+  font-size: 87.5%;
+}
+
+.navi-child2 ul.sub{
+  display: table;
+  width: 59%;
+  margin-left: 41%;
+}
+
+.navi-child2 ul.sub li a:hover{
+  background-color: darkblue;
+}
+
+.navi-child2 ul.sub li a::before{
+  height: 14px;
+  margin-top: 2px;
+  content: "";
+  display: block;
+  float: left;
+  border-left:2px solid cyan;
+}
+
+.navi-child2 ul.sub li:first-child a::before{
+  border-left: none;
+}
+
+.navi-child2 ul.sub li a span{
+  display: block;
+  color: white;
+  line-height: 18px;
+  padding: 0px 12px;
+  font-size: 83%;
+}
+
+.navi-child2 p.search-btn{
+  position: absolute;
+  top: 41px;
+  left: 0px;
+}
+
+.navi-child2 p.search-btn a{
+  display: block;
+  color: white;
+  font-size: 83%;
+  line-height: 19px;
+  padding: 0px 15px;
+}
+
+.navi-child2 p.search-btn a:hover{
+  background-color: darkblue;
+}
+
+.navi-child2 p.search-btn a::before{
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 10px;
+  background-image: url(https://www.tbs.co.jp/um/v7/img/gh_parts.svg?0);
+  background-size: 320px 240px;
+  background-position: 0 -90px;
+}
+
+.header .super{
+  width: 980px;
+  padding-bottom: 12px;
+  margin: 0px auto;
+}
+
+.cover .wrapper-top{
+  background: url(https://www.tbs.co.jp/anime/5hanayome/img/bgflower_00.png);
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cover #top-header{
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 100;
+}
+
+.wrapper-top #top-header .top-header-inner{
+  width: 1030px;
+  margin: 0px auto;
+}
+
+.wrapper-top header#top-header .top-header-inner ul#top-header-nav{
+  height: 20px;
+  width: 1030px;
+  padding: 34px 0px 0px 5px;
+}
+
+li.top-pcnav-list{
+  float: left;
+  padding: 0px 7px 0px;
+  border-right: 1px solid gray;
+  text-indent: 200%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+li.pcnav-list-01{
+  padding: 0px 7px 0px 0px;
+}
+
+li.pcnav-list-08{
+  padding: 0px 0px 0px 7px;
+  border-right: none;
+}
+
+li.pcnav-list-01 a{
+  display: block;
+  width: 79px;
+  height: 20px;
+  background-image: url(https://www.tbs.co.jp/anime/5hanayome/img/pcnav.png);
+  background-position: 0px 0px;
+}
+
+li.pcnav-list-01 a:hover{
+  background-position: 0px 20px;
+}
+
+li.pcnav-list-02 a{
+  display: block;
+  width: 89px;
+  height: 20px;
+  background-image: url(https://www.tbs.co.jp/anime/5hanayome/img/pcnav.png);
+  background-position: -79px 0px;
+}
+
+li.pcnav-list-02 a:hover{
+  background-position: -79px 20px;
+}
+
+li.pcnav-list-03 a{
+  display: block;
+  width: 170px;
+  height: 20px;
+  background-image: url(https://www.tbs.co.jp/anime/5hanayome/img/pcnav.png);
+  background-position: -167px 0px;
+}
+
+li.pcnav-list-03 a:hover{
+  background-position: -167px 20px;
+}
+
+li.pcnav-list-04 a{
+  display: block;
+  width: 92px;
+  height: 20px;
+  background-image: url(https://www.tbs.co.jp/anime/5hanayome/img/pcnav.png);
+  background-position: -337px 0px;
+}
+
+li.pcnav-list-04 a:hover{
+  background-position: -337px 20px;
+}
+
+li.pcnav-list-05 a{
+  display: block;
+  width: 168px;
+  height: 20px;
+  background-image: url(https://www.tbs.co.jp/anime/5hanayome/img/pcnav.png);
+  background-position: -428px 0px;
+}
+
+li.pcnav-list-05 a:hover{
+  background-position: -428px -20px;
+}
+
+li.pcnav-list-06 a{
+  display: block;
+  width: 91px;
+  height: 20px;
+  background-image: url(https://www.tbs.co.jp/anime/5hanayome/img/pcnav.png);
+  background-position: -711px 0px;
+}
+
+li.pcnav-list-06 a:hover{
+  background-position: -711px 20px;
+}
+
+li.pcnav-list-07 a{
+  display: block;
+  width: 109px;
+  height: 20px;
+  background-image: url(https://www.tbs.co.jp/anime/5hanayome/img/pcnav.png);
+  background-position: -804px 0px;
+}
+
+li.pcnav-list-07 a:hover{
+  background-position: -804px -20px;
+}
+
+li.pcnav-list-08 a{
+  display: block;
+  width: 115px;
+  height: 20px;
+  background-image: url(https://www.tbs.co.jp/anime/5hanayome/img/pcnav.png);
+  background-position: -596px 0px;
+}
+
+li.pcnav-list-08 a:hover{
+  background-position: -596px -20px;
+}
+
+div.top-visual-inner{
+  width: 1030px;
+  height: 1350px;
+  margin: 0px auto;
+  background: url(https://www.tbs.co.jp/anime/5hanayome/img/key_visual_2.jpg);
+  position: relative;
+}
+
+div.top-visual-inner h1.top-logo{
+  width: 751px;
+  height: 175px;
+  position: absolute;
+  top: 110px;
+  left: 170px;
+}
+
+div.top-visual-inner h1.top-logo img{
+  width: 100%;
+}
+
+div.top-visual-inner h2.top-onair{
+  width: 515px;
+  height: 81px;
+  position: absolute;
+  top: 250px;
+  left: 252px;
+}
+
+div.top-visual-inner h2.top-onair img{
+  width: 100%;
+}
+
+div.top-visual-inner p.top-catch{
+  width: 137px;
+  height: 492px;
+  position: absolute;
+  top: 500px;
+  left: 5px;
+}
+
+div.top-visual-inner p.top-catch img{
+  width: 100%;
+}
+
+div.top-visual-inner div.top-pvbanner{
+  width: 290px;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+div.top-visual-inner div.top-pvbanner a img{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+#top-contents{
+  width: 100%;
+  padding: 60px 0px 140px;
+}
+
+#top-contents .top-contents-inner{
+  width: 1030px;
+  margin: 0px auto;
+}
+
+.top-contents-inner .top-content-update{
+  margin: 0px 0px 80px;
+}
+
+.top-contents-inner .top-content-update .top-h2-update{
+  width: 275px;
+  height: 105px;
+  margin: 0px auto 24px;
+  background: url(https://www.tbs.co.jp/anime/5hanayome/img/h2_update.png);
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.top-content-update .top-update-wrap .top-update-block{
+  width: 230px;
+  margin: 0 10px;
+  float: left;
+}
+
+.update-img{
+  width: 228px;
+  margin: 0px 0px 12px;
+  border: 1px solid pink;
+}
+
+.update-img img{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.update-date{
+  font-size: 12px;
+  width: 220px;
+  margin: 0px auto 4px;
+  font-weight: bold;
+}
+
+.update-text{
+  width: 220px;
+  margin: 0px auto;
+  line-height: 22px;
+}
+
+.top-contents-inner .top-content-twitter .top-h2-twitter{
+  width: 309px;
+  height: 108px;
+  margin: 0px auto 24px;
+  background: url(https://www.tbs.co.jp/anime/5hanayome/img/h2_twitter.png);
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.top-contents-inner .top-content-twitter .top-twitter-wrap{
+  width: 790px;
+  height: 440px;
+  margin: 0px auto;
+  padding: 20px 50px;
+  border: 3px solid skyblue;
+}
+
+#top-footer{
+  box-shadow: 0px -2px 20px 0 rgb(0, 0, 0, 0.3);
+}
+
+#top-footer .top-footer-inner{
+  width: 1030px;
+  padding: 80px 0px 60px;
+  margin: 40px auto 0px;
+  position: relative;
+}
+
+.top-footer-inner .btn-topback{
+  width: 220px;
+  height: 76px;
+  position: absolute;
+  top: -75px;
+  left: 405px;
+}
+
+.btn-topback img{
+  width: 100%;
+}
+
+.top-footer-inner .footer-logo{
+  width: 540px;
+  margin: 0px auto;
+}
+
+.footer-logo img{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+div.top-footer-inner ul.top-footer-nav{
+  margin: 28px 0px 32px;
+}
+
+div.top-footer-inner ul.top-footer-nav li{
+  float: left;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  margin-right: 20px;
+}
+
+.footer-nav-01::first-letter,.footer-nav-06::first-letter,.footer-nav-01 a:hover,.footer-nav-06 a:hover{
+  color: yellow;
+}
+
+.footer-nav-02::first-letter,.footer-nav-02 a:hover,.footer-nav-07::first-letter,.footer-nav-07 a:hover{
+  color: purple;
+}
+
+.footer-nav-03::first-letter,.footer-nav-03 a:hover{
+  color: blue;
+}
+
+.footer-nav-04::first-letter,.footer-nav-04 a:hover{
+  color: yellowgreen;
+}
+
+.footer-nav-05::first-letter,.footer-nav-05 a:hover{
+  color: red;
+}
+
+.footer-nav-08::first-letter,.footer-nav-08 a:hover{
+  color: pink;
+}
+
+.top-footer-inner .top-footer-bannerarea{
+  width: 870px;
+  margin: 0px auto 48px;
+}
+
+.top-footer-bannerarea .footer-banner{
+  width: 270px;
+  margin: 10px 10px;
+  float: left;
+}
+
+.footer-banner img{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+div.top-footer-inner p.copyright{
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  line-height: 1.8em;
+}
+
+div.top-footer-inner p.copyright a:hover{
+  opacity: 0.6;
+}
