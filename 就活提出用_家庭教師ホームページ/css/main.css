@@ -1,0 +1,21 @@
+.content{
+    background-color:beige;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mainwrap{
+    background-color: white;
+    width: 950px;
+    margin: 0px auto;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border: 1px black solid;
+}
+
+.main{
+    padding: 0px 20px 0px 20px;
+    /* height: 2000px; */
+}
+

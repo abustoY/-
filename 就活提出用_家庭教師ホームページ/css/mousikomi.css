@@ -1,0 +1,94 @@
+.description{
+    line-height: 30px;
+}
+
+.mailaddress{
+    background-color: ghostwhite;
+}
+
+.student_info_item{
+    padding-top: 20px;
+}
+
+.student_info_item:last-of-type{
+    padding-bottom: 20px;
+}
+
+.student_info_item::before{
+    display: block;
+    content: "";
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-color: aqua;
+    border-radius: 50%;
+    border: black solid 1px;
+}
+
+.student_info_item>p{
+    float: left;
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+.privacy_policy_wrap{
+    margin-top: 20px;
+}
+
+.privacy_policy_wrap>ul{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.privacy_policy_wrap>h3{
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.privacy_policy_item{
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.privacy_policy_item:last-of-type{
+    padding-bottom: 20px;
+}
+
+.privacy_policy_item::before{
+    display: block;
+    content: "1";
+    line-height: 25px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-color: pink;
+    border-radius: 50%;
+    border: black solid 1px;
+}
+
+.privacy_policy_item:nth-of-type(1)::before{
+    content: "1";
+}
+
+.privacy_policy_item:nth-of-type(2)::before{
+    content: "2";
+}
+
+.privacy_policy_item:nth-of-type(3)::before{
+    content: "3";
+}
+
+.privacy_policy_item>p{
+    float: left;
+    margin-left: 20px;
+    line-height: 25px;
+    width: 856px;
+    /* 856=910-27-20-2-5、なぜこうしないといけないかは謎 */
+}

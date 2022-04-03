@@ -1,0 +1,46 @@
+.content{
+    background-color:beige;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mainwrap{
+    background-color: white;
+    width: 950px;
+    margin: 0px auto;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border: 1px black solid;
+}
+
+.main{
+    padding: 0px 20px 0px 20px;
+}
+
+.midashi1,.midashi2,.midashi3,.midashi4{
+    padding: 20px 0px 20px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    color: indianred;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.midashi1wrap p,.midashi2wrap p,.midashi3wrap p,.midashi4wrap p{
+    line-height: 32px;
+}
+
+.midashi2wrap p>a:link{
+    color: blue;
+}
+
+.midashi2wrap p>a:visited{
+    color: blue;
+}
+
+.midashi2wrap p>a:hover{
+    color: yellow;
+}

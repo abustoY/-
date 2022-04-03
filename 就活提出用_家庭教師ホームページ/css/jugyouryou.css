@@ -1,0 +1,14 @@
+.midashi1{
+    padding: 20px 0px 20px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    color: indianred;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.midashi1wrap p{
+    line-height: 32px;
+}

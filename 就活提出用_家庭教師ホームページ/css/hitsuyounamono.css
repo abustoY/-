@@ -1,0 +1,31 @@
+.midashi1,.midashi2{
+    padding: 20px 0px 20px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    color: indianred;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.midashi1wrap p,.midashi2wrap p{
+    line-height: 32px;
+}
+
+.need_items{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.need_item{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.need_item_name{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}

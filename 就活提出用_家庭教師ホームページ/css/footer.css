@@ -1,0 +1,39 @@
+footer{
+    background-color: navy;
+}
+
+.footerinner{
+    width: 950px;
+    margin: 0px auto;
+}
+
+.footernav{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footernav-item{
+    float: left;
+    padding-right: 25px;
+    padding-left: 25px;
+    letter-spacing: 0.5em;
+    border-left: 1px solid white;
+}
+
+.footernav-mainbtn:visited{
+    color: white;
+}
+
+.footernav-mainbtn:hover{
+    color: rgba(0, 255, 255, 0.5);
+}
+
+.footernav-mainbtn:link{
+    color: white;
+}
+
+.copyright{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

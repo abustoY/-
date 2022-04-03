@@ -1,0 +1,64 @@
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.headermain{
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: black 1px solid;
+
+}
+
+.headermain>p{
+    width: 950px;
+    margin: 0px auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.headernav{
+    margin-top: 80px;
+    background-color: ghostwhite;
+}
+
+.headernav>ul{
+    width: 950px;
+    margin: 0px auto;
+}
+
+.headernav-item{
+    float: left;
+    width: 20.0%;
+}
+
+.headernav-mainbtn{
+    display: block;
+    height: 50px;
+    border-left: solid 2px silver;
+    text-align: center;
+    line-height: 50px;
+}
+
+.headernav-mainbtn:link{
+    color: black;
+}
+
+.headernav-mainbtn:visited{
+    color: black;
+}
+
+.headernav-mainbtn:hover{
+    background-color: powderblue;
+}
+
+.headernav-item:last-of-type>.headernav-mainbtn{
+    border-right: solid 2px silver;
+}
+
